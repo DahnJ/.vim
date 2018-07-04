@@ -1,3 +1,8 @@
+execute pathogen#infect()
+
+
+let mapleader = "<Space>"
+
 " COLORS
 syntax on
 
@@ -7,6 +12,8 @@ set softtabstop=4 " number of spaces in tab when editing
 set shiftwidth=4 " hopefully stops > and < from shifting by two TABs
 set expandtab " tab inesrts spaces, not tab
         
+set autoindent
+set smartindent
 
 " UI config
 set number
@@ -27,10 +34,6 @@ set foldenable " enable folding
 
 " Movement
 
-
-
-set autoindent
-set smartindent
 nmap oo o<Esc>k
 nmap OO O<Esc>j
 
