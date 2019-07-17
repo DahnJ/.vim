@@ -1,3 +1,4 @@
+" Pathogen - for installing plugins into new directories
 execute pathogen#infect()
 
 
@@ -33,11 +34,15 @@ set foldenable " enable folding
 " see :help foldmethod for methods
 
 " Movement
+" nmap oo o<Esc>k
+" nmap OO O<Esc>j
 
-nmap oo o<Esc>k
-nmap OO O<Esc>j
+" Mouse
+set mouse=a
 
 
+" See the filename at all times
+set laststatus=2
 
 
 ":help viminfo
