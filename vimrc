@@ -26,6 +26,8 @@ set showmatch " highlight machint [{()}] - default
 " Searching
 set incsearch " search as characters are inputted
 set hlsearch " highlight matches
+set ignorecase 
+set smartcase " switches to case-sensitive when using capital letters
 nnoremap ,<space>  :nohlsearch<CR> 
 " turn off highlighting at the moment
 
