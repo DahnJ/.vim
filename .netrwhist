@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/dahn/dahn/eo/data/planesnet/planesnet'
+let g:netrw_dirhist_2='/home/dahn/tasks/forest-recreation-movement-data/data/output/summary_h3_8'
+let g:netrw_dirhist_3='/home/dahn/targomo/mobility-service/mobility'
+let g:netrw_dirhist_4='/home/dahn/targomo/mobility-service/docker/mobility-service-gdal'
+let g:netrw_dirhist_5='/home/dahn/targomo/mobility-service/.git'
+let g:netrw_dirhist_6='/home/dahn/libdahn/recurse/.git'

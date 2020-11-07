@@ -1,20 +1,20 @@
-" Pathogen - for installing plugins into new directories
-execute pathogen#infect()
-
-
 let mapleader = "<Space>"
 
 " COLORS
 syntax on
 
 " SPACES AND TABS
-set tabstop=4  " number of visual spaces per TAB
-set softtabstop=4 " number of spaces in tab when editing
-set shiftwidth=4 " hopefully stops > and < from shifting by two TABs
-set expandtab " tab inesrts spaces, not tab
-        
-set autoindent
 set smartindent
+
+" Python PEP-8-compliant
+" set textwidth=79 " lines longer than 79 columns will be broken
+set shiftwidth=4 " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4 " a hard TAB displays as 4 columns
+set expandtab " insert spaces when hitting TABs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround " round indent to multiple of 'shiftwidth'
+set autoindent " align the new line indent with the previous line
+
 
 " UI config
 set number
@@ -45,6 +45,12 @@ set mouse=a
 
 " See the filename at all times
 set laststatus=2
+
+" Allow for ctrl+shift+c and ctrl+shift+v in Ubuntu
+vnoremap <C-S-X> "+x
+vnoremap <C-C> "+y
+
+
 
 
 ":help viminfo
